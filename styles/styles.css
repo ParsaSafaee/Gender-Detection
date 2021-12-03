@@ -1,0 +1,54 @@
+/* Body propertise and the part where you set background image */
+body {
+    display: flex;
+    background: url('../img/texture1.png');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Centerizing and customizing h1, h3, label & p tags */
+h1, h3, label, p {
+    text-align: center;
+	color: powderblue;
+	font-family: 'Montserrat', sans-serif; 
+	font-weight:600;
+	padding-right: 5px;
+}
+
+/* Giving a nice and transparent view to input text and buttons */
+input, button {
+	background: transparent;
+	border: solid 2px powderblue;
+	font-family: 'Montserrat', sans-serif; 
+	font-weight:300;
+	color: powderblue;
+}
+
+/* Adjusting the size and location of the main box */
+.main-box {
+    height: 60%;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;	/* Position at the center of the page */
+    display: grid;
+    background: rgba(0, 0, 0, 0.6);
+    grid-template-columns: repeat(2, auto);
+	border-color: powderblue;
+    box-shadow: 0 0 20px powderblue;
+	padding: 3%;
+}
+
+/* Adjusting the size of right and left part of the main box */
+.right-box, .left-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Giving a nice view to the Saved Answer section */
+.saved-answer {
+    border: dotted;
+    border-color: powderblue;
+}
